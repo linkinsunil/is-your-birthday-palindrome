@@ -4,13 +4,14 @@ const message = document.querySelector("#message");
 
 btnPalindromeCheck.addEventListener("click", checkPalindrome)
 
-function checkPalindrome(){
-    console.log(birthDay.value)
-    console.log(reverseFunc(birthDay.value));
-    // message.innerText = reverseFunc(birthDay);
+function checkPalindrome() {
+    console.log(birthDay.value);
+    console.log(reverseStr(birthDay.value));
+    message.innerText = reverseStr(birthDay.value);
 }
 
-function reverseFunc(str){
-    const reversedStr = str.split("-").reverse().join("");
+function reverseStr(str) {
+    const tempReversedStr = str.split("-").join("")
+    const reversedStr = tempReversedStr.split("").reverse().join("")
     return reversedStr;
 }
