@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+}
+
+input{
+    margin: 2rem 0rem;
+    padding: .4rem;
+}
+
+button{
+    padding: .5rem;
+}
