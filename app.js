@@ -163,10 +163,8 @@ function handleClick() {
     }
 }
 
-let date = {
-    day: 8,
-    month: 8,
-    year: 2021
-}
-
-// console.log(getNextPalindromeDate(date))
+// let date = {
+//     day: 8,
+//     month: 8,
+//     year: 2021
+// }
