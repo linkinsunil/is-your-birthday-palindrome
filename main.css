@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+    --primary-color:#6D28D9;
+    --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
+    --white-color: white;
+    --black-color: black;
+    --green-dark : #0C4A6E;
+    --green-light: #5EEAD4;
+}
+
 .container{
     display: flex;
     flex-direction: column;
