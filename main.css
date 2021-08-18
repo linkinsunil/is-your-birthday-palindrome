@@ -22,3 +22,36 @@ button{
     margin-top: 1rem;
     font-weight: bold;
 }
+
+/* footer */
+
+.footer {
+    background-color: var(--white-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
